@@ -1,0 +1,14 @@
+.site-links, .gallery{
+  margin: 0;
+  width: 40%;
+  height: 100%;
+  border: 10px groove rgb(34, 45, 73);
+  border-radius: 10px;
+  background: rgb(225, 225, 225, 0.95);
+}
+.site-links{
+  box-shadow: 20px 20px 15px rgb(34, 45, 73);
+}
+.gallery{
+  box-shadow: -20px 20px 15px rgb(34, 45, 73);
+}

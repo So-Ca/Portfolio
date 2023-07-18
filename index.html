@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Description -->
+  <meta name="description" content="Welcome to Sonny Caputo website. Here you can find my projects, all information about me, my works and see what my skill are and I hope we can work together">
+  <meta name="og:title" property="og:title" content="Portfolio of Sonny Caputo">
+  <meta property="og:description" content="Welcome to my portfolio-website. Here you can find my projects, all information about me, my works and see what my skill are and I hope we can work together">
+  <meta name="robots" content="index, follow">
+  <meta property="og:url" content="https://so-ca.github.io./">
+<!-- Favicon -->
+  <link rel="icon" href="assets/img/icon/favicon.ico" type="image/icon"/>
+<!-- FONTS -->
+<!--Audiowide-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<!--Finger Paint-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+<!--Roboto Flex-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex&display=swap" rel="stylesheet">
+<!--Rajdhani-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+<!-- FILES -->
+<!--CSS Files-->
+<link rel="stylesheet" href="style/index.css">
+<link rel="stylesheet" href="style/contacts.css">
+<link rel="stylesheet" href="style/projects.css">
+<link rel="stylesheet" href="style/modals.css">
+<!--JS Files-->
+<script src="js/index.js" defer></script>
+<script src="js/modals.js" defer></script>
+
+  <title>So Ca | Portfolio</title>
+</head>
+
+<body>
+
+  <div class="welcome">
+    <h1>So-Ca</h1>
+  </div>
+
+  <header>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/sonny-caputo-554315185/" target="_blank"><img src="assets/img/icon/linkedin.svg"></a>
+      <a href="https://github.com/So-Ca" target="_blank"><img src="assets/img/icon/github.svg"></a>
+      <a href="https://www.instagram.com/so.ca_/" target="_blank"><img src="assets/img/icon/instagram.svg"></a>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="hexagon about">
+      <div class="hex-head">
+        <h3><a href="html/about.html">About</a></h3>
+      </div>
+      <p>
+        Here there are informations about me, my job, my knowledge, my interests and my life in general.
+      </p>
+    </div>
+
+    <div class="hexagon project" id="open-mod-project">
+      <div class="hex-head">
+        <h3>Projects</h3>
+      </div>
+      <p>
+        Here are my works done and in progress.
+      </p>
+    </div>
+
+    <div class="hexagon contact" id="open-mod-contact">
+      <div class="hex-head">
+        <h3>Contacts</h3>
+      </div>
+      <p>
+        Click on this to see my contacts details.
+      </p>
+    </div>
+    
+  </main>
+
+  <div id="modal-project" class="hidden">
+
+    <button id="close-mod-project">close</button>
+
+    <div class="site-links">
+      <h2>Here you can find the links to my completed projects and those that are currently in progress, as well as some extra side projects I have worked on during my journey.</h2>
+      <ul>Apps
+        <li><a href="" target="_blank">Clock</a></li>
+        <li><a href="" target="_blank">Pokedex</a></li>
+        <li><a href="" target="_blank">Card Project</a> with React</li>
+        <li><a href="" target="_blank">Calculator</a></li>
+      </ul>
+      <ul>Course Projects
+        <li><a href="" target="_blank">Counter Project</a></li>
+        <li><a href="" target="_blank">The Book Seeker</a></li>
+      </ul>
+      <ul>Web Site
+        <li><a href="" target="_blank">Elder Scrolls Online Guide</a></li>
+      </ul>
+    </div>
+
+    <div class="gallery">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+      <img src="" alt="">
+    </div>
+
+  </div>
+
+    <div id="modal-contact" class="hidden">
+
+      <button id="close-mod-contact">close</button>
+
+      <div class="contact-container">
+  
+        <div class="form">
+          <form action="https://formsubmit.co/sonnycap88@gmail.com" method="POST">
+            <div class="text">
+              <label for="text">Name</label>
+              <input type="text" name="name" id="name" placeholder="Type your full name">
+            </div>
+            <div class="text">
+              <label for="text">Subject</label>
+              <input type="text" name="subject" id="subject" placeholder="Type the subject of the message">
+            </div>
+            <div class="text">
+              <label for="text">Message</label>
+              <textarea name="text" id="abstract" placeholder="Here goes your comunications"></textarea>
+            </div>
+            <button class="submission">Submit</button>
+          </form>
+        </div>
+    
+        <div class="details">
+          <div class="group-1">
+            <div class="name">
+              <img src="assets/img/icon/info.svg">
+              <span style="text-decoration: underline;">Name:</span> Sonny Caputo
+            </div>
+            <div class="birth">
+              <img src="assets/img/icon/calendar.svg">
+              <span style="text-decoration: underline;">Birth Date:</span> 05/07/1988
+            </div>
+            <div class="skype">
+              <img src="assets/img/icon/skype.svg">
+              <span style="text-decoration: underline;">Skype:</span> So Ca
+            </div>
+          </div>
+          <div class="group-2">
+            <div class="phone">
+              <img src="assets/img/icon/mobile.svg">
+              <span style="text-decoration: underline;">Phone</span>: 3206451583
+            </div>
+            <div class="email">
+              <img src="assets/img/icon/email.svg">
+              <span style="text-decoration: underline;">e-Mail:</span> <a href="mailto:sonnycap88@gmail.com">Sonnycap88@gmail.com</a>
+            </div>
+            <div class="address">
+              <img src="assets/img/icon/address.svg">
+              <span style="text-decoration: underline;">Address:</span> Volvera (TO), Italy
+            </div>
+          </div>
+        </div>
+
+      </div>
+  
+      <div class="cv">
+        <p>Here is my resume in case you might be interested</p>
+        <div class="resume">
+          <button class="download">
+            <a href="assets/documents/cv-sonny-caputo-english.pdf" download>Download CV "en"</a>
+          </button>
+          <button class="download">
+            <a href="assets/documents/cv-info-sonny.pdf" download>Download CV "ita"</a>
+          </button>
+        </div>
+      </div>
+  
+    </div>
+
+  <footer>
+    <p id="copyright">This web page has been made by Sonny Caputo &copy;</p>
+    <img id="logo" src="assets/img/logo-so-ca.png">
+  </footer>
+
+</body>
+</html>

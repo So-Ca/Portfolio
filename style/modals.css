@@ -1,0 +1,109 @@
+.hidden{
+  display: none;
+}
+
+#open-mod-contact,
+#open-mod-project{
+  animation: shade 4s infinite;
+}
+#open-mod-contact:hover,
+#open-mod-project:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
+#open-mod-contact:active,
+#open-mod-project:active{
+  opacity: 1;
+}
+
+#modal-contact{
+  width: 70%;
+  height: 700px;
+  top: -720px;
+  left: 20px;
+  border: 10px groove rgba(26, 49, 26);
+  border-radius: 10px;
+  box-shadow: 20px 20px 15px rgba(26, 49, 26);
+  background: rgb(225, 225, 225, 0.95);
+  position: relative;
+  transform: translateX(-100%); /* Sposta il modale fuori dalla finestra */
+  animation: slide-in 1.5s forwards; /* Animazione per lo spostamento */
+}
+
+#modal-project{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  height: 700px;
+  top: -720px;
+  left: 20px;
+  background: transparent;
+  position: relative;
+  transform: translateX(-100%);
+  animation: slide-in 1.5s forwards;
+}
+
+#close-mod-contact{
+  padding: 5px;
+  position: absolute;
+  left: 95%;
+  top: 2%;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px rgba(26, 49, 26);
+  font-size: 1em;
+  font-family: "Rajdhani";
+  color: rgba(26, 49, 26);
+  text-shadow: -1px 0 rgb(139, 197, 0), 0 1px rgb(139, 197, 0), 1px 0 rgb(139, 197, 0), 0 -1px rgb(139, 197, 0);
+  cursor: pointer;
+}
+#close-mod-contact:hover{
+  border: 1px groove rgb(139, 197, 0);
+  font-weight: bold;
+}
+#close-mod-contact:active{
+  background: #000000;
+  color: #ffffff;
+}
+
+#close-mod-project{
+  padding: 5px;
+  position: absolute;
+  left: 95%;
+  top: 2%;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px rgb(34, 45, 73);
+  font-size: 1em;
+  font-family: "Rajdhani";
+  color: rgb(34, 45, 73);
+  text-shadow: -1px 0 rgb(41, 101, 241), 0 1px rgb(41, 101, 241), 1px 0 rgb(41, 101, 241), 0 -1px rgb(41, 101, 241);
+  cursor: pointer;
+}
+#close-mod-project:hover{
+  border: 1px groove rgb(41, 101, 241);
+  font-weight: bold;
+}
+#close-mod-project:active{
+  background: #000000;
+  color: #ffffff;
+} 
+
+@keyframes slide-in{
+  from{
+    transform: translateX(-100%); /* Partenza fuori dalla finestra */
+  } to {
+    transform: translateX(0); /* Arrivo al centro della finestra */
+  }
+}
+
+@keyframes slide-out{
+  from{
+    transform: translateX(0); /* Partenza al centro della finestra */
+  } to {
+    transform: translateX(-105%); /* Arrivo fuori dalla finestra */
+  }
+}

@@ -1,0 +1,128 @@
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1%;
+}
+
+.form{
+  font-size: 1.5em;
+  font-family: "Rajdhani";
+  font-weight: bold;
+  margin: 1%;
+}
+
+.text{
+  margin: 1%
+}
+
+.submission{
+  margin: 1% 40%;
+  padding: 10px;
+  border: 1px solid rgba(26, 49, 26);
+  border-radius: 10px;
+  background: transparent;
+  color: rgba(26, 49, 26);
+  font-family: "Rajdhani";
+  font-size: 0.65em;
+  cursor: pointer;
+}
+.submission:hover{
+  font-weight: bold;
+  box-shadow: 2px 2px 1px rgba(26, 49, 26);
+}
+.submission:active{
+  background: rgba(26, 49, 26);
+  color: #ffffff;
+}
+
+.details{
+  border-left: 5px groove rgba(26, 49, 26);
+  border-radius: 5px;
+  margin: 1% 10% 1% 0;
+}
+
+.group-1, .group-2{
+  margin: 1% 1% 1% 20%;
+  font-size: 1.5em;
+  font-family: "Rajdhani";
+  font-weight: bold;
+}
+
+.name, .birth, .skype, .phone, .email, .address{
+  margin: 5% 1%;
+}
+
+.name label{
+  text-decoration: double;
+}
+
+.cv{
+  border-top: 5px groove rgba(26, 49, 26);;
+  border-radius: 5px;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cv p{
+  margin: 2% 1% 1% 1%;
+}
+
+.resume{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1%;
+}
+
+.download{
+  margin: 1% 10%;
+  width: 250px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid rgba(26, 49, 26);
+  border-radius: 10px;
+  font-family: "Rajdhani";
+  font-size: 1em;
+  color: rgba(26, 49, 26);
+}
+.download:hover{
+  box-shadow: 2px 2px 1px rgba(26, 49, 26);
+}
+.download:active{
+  background: rgba(26, 49, 26);
+}
+.download a{
+  font-weight: normal;
+}
+.download a:hover{
+  font-weight: bold;
+}
+.download a:active{
+  color: #ffffff;
+}
+
+#name,
+#subject{
+  margin: auto;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.7em;
+}
+
+#name{
+  margin-left: 3%;
+}
+
+#abstract{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+}
