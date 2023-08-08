@@ -3,16 +3,19 @@
 }
 
 #open-mod-contact,
-#open-mod-project{
+#open-mod-project,
+#open-mod-about{
   animation: shade 4s infinite;
 }
 #open-mod-contact:hover,
-#open-mod-project:hover{
+#open-mod-project:hover,
+#open-mod-about:hover{
   opacity: 0.9;
   cursor: pointer;
 }
 #open-mod-contact:active,
-#open-mod-project:active{
+#open-mod-project:active,
+#open-mod-about:active{
   opacity: 1;
 }
 
@@ -21,7 +24,7 @@
   height: 700px;
   top: -720px;
   left: 20px;
-  border: 10px groove rgba(26, 49, 26);
+  border: 10px groove rgb(139, 197, 0);
   border-radius: 10px;
   box-shadow: 20px 20px 15px rgba(26, 49, 26);
   background: rgb(225, 225, 225, 0.95);
@@ -42,6 +45,29 @@
   position: relative;
   transform: translateX(-100%);
   animation: slide-in 1.5s forwards;
+}
+#modal-project.hidden {
+  display: none;
+}
+
+#modal-about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:70%;
+  height: 700px;
+  top: -720px;
+  right: -550px;
+  border: 10px groove rgb(229, 162, 38);
+  border-radius: 10px;
+  box-shadow: -20px 20px 15px rgb(54, 39, 9);
+  background: rgb(225, 225, 225, 0.95);
+  position: relative;
+  transform: translateX(-100%);
+  animation: slide-in 1.5s forwards;
+}
+#modal-about.hidden{
+  display: none;
 }
 
 #close-mod-contact{
@@ -71,7 +97,7 @@
 #close-mod-project{
   padding: 5px;
   position: absolute;
-  left: 95%;
+  left: 35%;
   top: 2%;
   background: transparent;
   border: none;
@@ -79,7 +105,7 @@
   box-shadow: 3px 3px 3px rgb(34, 45, 73);
   font-size: 1em;
   font-family: "Rajdhani";
-  color: rgb(34, 45, 73);
+  color: rgb(41, 101, 241);
   text-shadow: -1px 0 rgb(41, 101, 241), 0 1px rgb(41, 101, 241), 1px 0 rgb(41, 101, 241), 0 -1px rgb(41, 101, 241);
   cursor: pointer;
 }
@@ -90,7 +116,31 @@
 #close-mod-project:active{
   background: #000000;
   color: #ffffff;
-} 
+}
+
+#close-mod-about{
+  position: absolute;
+  padding: 5px;
+  left: 1%;
+  top: 2%;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px rgb(54, 39, 9);
+  font-size: 1em;
+  font-family: "Rajdhani";
+  color: rgb(54, 39, 9);
+  text-shadow: -1px 0 rgb(229, 162, 38), 0 1px rgb(229, 162, 38), 1px 0 rgb(229, 162, 38), 0 -1px rgb(229, 162, 38);
+  cursor: pointer;
+}
+#close-mod-about:hover{
+  border: 1px groove rgb(229, 162, 38);
+  font-weight: bold;
+}
+#close-mod-about:active{
+  background: #000000;
+  color: #ffffff;
+}
 
 @keyframes slide-in{
   from{

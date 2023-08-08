@@ -1,0 +1,26 @@
+- Pulizia del codice:
+  - Modali: 
+      1_ Se possibile togliere le classi specifiche e mettere una classe unica per i modali e poi 3 diverse per i tre modali
+
+- Modifiche:
+  - Modali:
+      1_ Mettere tooltip quando passi col mouse sulle anteprime dei siti
+      2_ Fade-in del modale About da destra verso sinistra
+      3_ Fade-in del modale projects dal basso verso l'alto
+      4_ Fare uscire about del 100% quando chiudi (anche in apertura)
+
+  - Stile:
+    - Generale:
+      1_ Mettere un bg di sfondo migliore
+    - Footer:
+      2_ cambiare colori logo (forma?)
+
+- Rifiniture:
+  - Link:
+    1_ Aggiungere link alla lista project (quindi prima mettere online gli elementi della lista)
+  -Query:
+    1_ Aggiungere tutti i mediaquery
+
+- Cambiamenti:
+  - Social:
+    1_ Rifare pagine social in maniera da publicizzare questo contenuto

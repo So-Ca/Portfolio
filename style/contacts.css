@@ -19,10 +19,10 @@
 .submission{
   margin: 1% 40%;
   padding: 10px;
-  border: 1px solid rgba(26, 49, 26);
+  border: 1px solid rgb(139, 197, 0);
   border-radius: 10px;
   background: transparent;
-  color: rgba(26, 49, 26);
+  color: rgb(139, 197, 0);
   font-family: "Rajdhani";
   font-size: 0.65em;
   cursor: pointer;
@@ -32,12 +32,12 @@
   box-shadow: 2px 2px 1px rgba(26, 49, 26);
 }
 .submission:active{
-  background: rgba(26, 49, 26);
+  background: rgb(139, 197, 0);
   color: #ffffff;
 }
 
 .details{
-  border-left: 5px groove rgba(26, 49, 26);
+  border-left: 5px groove rgb(139, 197, 0);
   border-radius: 5px;
   margin: 1% 10% 1% 0;
 }
@@ -58,7 +58,7 @@
 }
 
 .cv{
-  border-top: 5px groove rgba(26, 49, 26);;
+  border-top: 5px groove rgb(139, 197, 0);
   border-radius: 5px;
   margin: 1%;
   display: flex;
@@ -82,20 +82,21 @@
   width: 250px;
   height: 40px;
   background: transparent;
-  border: 1px solid rgba(26, 49, 26);
+  border: 1px solid rgb(139, 197, 0);
   border-radius: 10px;
   font-family: "Rajdhani";
   font-size: 1em;
-  color: rgba(26, 49, 26);
+  color: rgb(139, 197, 0);
 }
 .download:hover{
   box-shadow: 2px 2px 1px rgba(26, 49, 26);
 }
 .download:active{
-  background: rgba(26, 49, 26);
+  background: rgb(139, 197, 0);
 }
 .download a{
   font-weight: normal;
+  font-style: italic;
 }
 .download a:hover{
   font-weight: bold;

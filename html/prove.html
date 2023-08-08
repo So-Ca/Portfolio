@@ -3,159 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-  <title>Prove</title>
-   <style>
-
-    .hexagon{
-      border: 5px solid black;
-      background: grey;
+  <style>
+    .coding{
+      border: 3px solid red;
+      width: 500px;
     }
-
-    .hidden{
-      display: none;
+    
+    .html-container{
+      border: 3px solid blue;
+      height: 50px;
+      width: 500px;
     }
-    #open-mod-project{
-      animation: shade 4s infinite;
+    .html{
+      width: 50%;
+      height: 100%;
+      background: rgb(0, 0, 0, 0.4);
     }
-    #open-mod-project:hover{
-      opacity: 0.9;
-      cursor: pointer;
-    }
-    #open-mod-project:active{
-      opacity: 1;
-    }
-    #modal-project{
+    .skl-lvl{
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 98%;
-      height: 700px;
-      top: -720px;
-      left: 20px;
-      background: transparent;
-      position: relative;
-      transform: translateX(-100%);
-      animation: slide-in 1.5s forwards;
+      width:
     }
-    #close-mod-project{
-      padding: 5px;
-      position: absolute;
-      left: 95%;
-      top: 2%;
-      background: transparent;
-      border: none;
-      border-radius: 50%;
-      box-shadow: 3px 3px 3px rgb(34, 45, 73);
-      font-size: 1em;
-      font-family: "Rajdhani";
-      color: rgb(34, 45, 73);
-      text-shadow: -1px 0 rgb(41, 101, 241), 0 1px rgb(41, 101, 241), 1px 0 rgb(41, 101, 241), 0 -1px rgb(41, 101, 241);
-      cursor: pointer;
-    }
-    #close-mod-project:hover{
-      border: 1px groove rgb(41, 101, 241);
-      font-weight: bold;
-    }
-    #close-mod-project:active{
-      background: #000000;
-      color: #ffffff;
-    } 
-    @keyframes slide-in{
-      from{
-        transform: translateX(-100%); /* Partenza fuori dalla finestra */
-      } to {
-        transform: translateX(0); /* Arrivo al centro della finestra */
-      }
-    }
-
-    @keyframes slide-out{
-      from{
-        transform: translateX(0); /* Partenza al centro della finestra */
-      } to {
-        transform: translateX(-105%); /* Arrivo fuori dalla finestra */
-      }
-    }
-
-   </style>
+  </style>
 </head>
 <body>
 
-  <div class="hexagon project" id="open-mod-project">
-    <div class="hex-head">
-      <h3>Projects</h3>
+  <div class="coding">
+    <div class="skl-lvl">
+      <p class="lvl">Got it!</p>
+      <p class="lvl">Highly Skilled</p>
+      <p class="lvl">Expert</p>
     </div>
-    <p>
-      Here are my works done and in progress.
-    </p>
+    <div class="html-container">
+      <div class="html"></div>
+    </div>
   </div>
-
-  <div id="modal-project" class="hidden">
-
-    <button id="close-mod-project">close</button>
-
-    <div class="site-links">
-      <h2>Here you can find the links to my completed projects and those that are currently in progress, as well as some extra side projects I have worked on during my journey.</h2>
-      <ul>Apps
-        <li><a href="" target="_blank">Clock</a></li>
-        <li><a href="" target="_blank">Pokedex</a></li>
-        <li><a href="" target="_blank">Card Project</a> with React</li>
-        <li><a href="" target="_blank">Calculator</a></li>
-      </ul>
-      <ul>Course Projects
-        <li><a href="" target="_blank">Counter Project</a></li>
-        <li><a href="" target="_blank">The Book Seeker</a></li>
-      </ul>
-      <ul>Web Site
-        <li><a href="" target="_blank">Elder Scrolls Online Guide</a></li>
-      </ul>
-    </div>
-
-    <div class="gallery">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
-    </div>
-
-  </div>
-
-
-  <script>
-
-function projectMod(){
-  const openMod = document.getElementById("open-mod-project");
-  const closeMod = document.getElementById("close-mod-project");
-  const modal = document.getElementById("modal-project");
-
-  openMod.addEventListener("click", openModal);
-  closeMod.addEventListener("click", closeModal);
-
-  function openModal(){
-    modal.classList.remove("hidden");
-  }
   
-  function closeModal(){
-    const modal = document.getElementById("modal-project");
-    const computedStyle = window.getComputedStyle(modal);
-    const currentTransform = computedStyle.transform;
-  
-    modal.style.transform = currentTransform;
-    modal.style.animation = "slide-out 1.5s forwards";
-    setTimeout(function() {
-      modal.classList.add("hidden");
-      modal.style.transform = "";
-      modal.style.animation = "";
-    }, 1500);
-  }
-}
-projectMod();
-
-  </script>
-
 </body>
 </html>

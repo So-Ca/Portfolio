@@ -1,0 +1,133 @@
+.skill-info{
+  margin: 1%;
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill-info h2{
+  margin: 5% auto 30% auto;
+  font-family: "Audiowide";
+  font-size: 3em;
+  text-align: center;
+  text-shadow: -1px 0 rgb(229, 162, 38), 0 1px rgb(229, 162, 38), 1px 0 rgb(229, 162, 38), 0 -1px rgb(229, 162, 38);
+}
+.skill-info p{
+  margin: 1%;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 1.5em;
+  font-weight: normal;
+}
+.skill-info a{
+  font-family: "Rajdhani";
+  font-weight: normal;
+  font-style: italic;
+}
+.skill-info a:hover{
+  font-weight: bold;
+  color: rgb(229, 162, 38);
+  text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+.skill-info a:active{
+  color: #ffffff;
+  text-shadow: -1px 0 rgb(229, 162, 38), 0 1px rgb(229, 162, 38), 1px 0 rgb(229, 162, 38), 0 -1px rgb(229, 162, 38);
+}
+
+.coding-container{
+  margin: 1%;
+  width: 50%;
+  height: 90%;
+}
+
+.misc-container{
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 90%;
+}
+
+.skl-lvl{
+  margin: 1% 0 2% 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 65%;
+  font-size: 0.5em;
+}
+
+.lvl{
+  margin: 0;
+  width: 10%;
+  font-size: 1.6em;
+  font-family: "Roboto";
+  font-weight: normal;
+}
+
+.coding,
+.literacy,
+.so,
+.digital-skills{
+  margin: 1%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.coding h5,
+.literacy h5,
+.so h5,
+.digital-skills h5{
+  font-size: 1.5em;
+  font-family: "Rajdhani";
+  font-weight: normal;
+  text-shadow: -1px 0 rgb(229, 162, 38), 0 1px rgb(229, 162, 38), 1px 0 rgb(229, 162, 38), 0 -1px rgb(229, 162, 38);
+}
+
+.insc-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.label{
+  margin: 1%;
+  width: 200px;
+  text-align: center;
+  font-family: "Audiowide";
+  font-size: 1em;
+}
+
+.html-box, .css-box, .sass-box, .strap-box, .tail-box, .js-box, .node-box, .react-box,
+.excell-box, .canva-box, .slides-box, .cad-box,
+.win-box, .ubuntu-box, .mint-box,
+.ita-box, .en-box, .fr-box{
+  margin: 1% auto;
+  width: 100%;
+  height: 30px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(229, 162, 38);
+  background-color: rgb(225, 225, 225, 0.95);
+  overflow: hidden;
+  font-size: 0.9em;
+  font-family: "Audiowide";
+  text-align: center;
+}
+
+.html, .css, .sass, .bootstrap, .tailwind, .js, .node, .react,
+.excell, .canva, .slides, .cad,
+.win, .ubuntu, .mint,
+.italian, .english, .french{
+  height: 100%;
+  transition: width 0.5s linear;
+  background: rgb(54, 39, 9, 0.5);
+}

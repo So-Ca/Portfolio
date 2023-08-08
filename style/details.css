@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+
+nav{
+  margin: 0;
+  overflow: auto;
+  width: 100%;
+  padding: 30px;
+  background: rgb(78, 78, 78, 0.4);
+  border-bottom: 3px groove rgb(41, 101, 241, 0.5);
+  box-shadow: 0px 3px 25px rgba(0, 0, 0);
+}
+
+li{
+  list-style: none;
+}
+
+h1{
+  margin: 1% 0;
+  font-family: "Audiowide";
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: -1px 0 rgb(41, 101, 241), 0 1px rgb(41, 101, 241), 1px 0 rgb(41, 101, 241), 0 -1px rgb(41, 101, 241);
+}
+
+h2{
+  margin: 1% 0;
+  font-family: "Rajdhani";
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+h3{
+  margin: 2% 0;
+  font-family: "Audiowide";
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: -1px 0 rgb(41, 101, 241), 0 1px rgb(41, 101, 241), 1px 0 rgb(41, 101, 241), 0 -1px rgb(41, 101, 241);
+}
+
+h4{
+  margin: 2% 0;
+  font-family: "Audiowide";
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(212, 212, 212);
+  text-shadow: -1px 0 rgb(41, 101, 241), 0 1px rgb(41, 101, 241), 1px 0 rgb(41, 101, 241), 0 -1px rgb(41, 101, 241);
+}
+
+a{
+  margin: auto;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Rajdhani";
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: center;
+  color: #000000;
+}
+a:hover{
+  font-weight: bold;
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+a:active{
+  color: #ffffff;
+  text-shadow: -1px 0 rgb(41, 101, 241), 0 1px rgb(41, 101, 241), 1px 0 rgb(41, 101, 241), 0 -1px rgb(41, 101, 241);
+}
+
+p{
+  margin: 1% 10% 2% 10%;
+  font-family: "Roboto";
+  font-size: 1.5em;
+  font-weight: normal;
+  text-align: justify;
+  color: rgb(78, 78, 78);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 30px;
+  background: rgb(78, 78, 78, 0.4);
+  border-top: 3px groove rgb(41, 101, 241, 0.5);
+}
+
+.page{
+  margin: 1%;
+  border: none;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-image: url(../assets/img/wallpaper/bianco-verticale.jpg);
+}
+
+.home{
+  display: flex;
+}
+
+
+
+.informatic, .digital, .literacy, .chemistry,
+.travel, .beliefs, .interests, .philosophy, .hobbies, .personality{
+  margin: 2.5% 10%;
+  border-radius: 10px;
+  background: rgb(41, 101, 241, 0.1);
+  box-shadow: 0px 3px 25px rgba(0, 0, 0);
+  overflow: auto;
+}
+
+.mid-nav{
+  margin: 0;
+  overflow: auto;
+  width: 100%;
+  padding: 30px;
+  background: rgb(78, 78, 78, 0.4);
+  border-top: 3px groove rgb(41, 101, 241, 0.5);
+  border-bottom: 3px groove rgb(41, 101, 241, 0.5);
+  box-shadow: 0px 3px 25px rgba(0, 0, 0);
+}
+
+.interlude{
+  color: rgb(255, 255, 255);
+  text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+}
+
+#logo{
+  margin: 0% 1%;
+  width: 20px;
+  height: 20px;
+}
+
+#copyright{
+  margin: 0;
+  font-size: 1em;
+  font-family: "Audiowide";
+  font-weight: bold;
+  text-shadow: -1px 0 rgb(41, 101, 241), 0 1px #ffffff, 1px 0 #ffffff, 0 -1px rgb(41, 101, 241);
+}
