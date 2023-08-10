@@ -45,6 +45,9 @@
   font-size: 1.2em;
   font-weight: normal;
   font-style: italic;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
 }
 .site-links a:hover{
   font-weight: bold;

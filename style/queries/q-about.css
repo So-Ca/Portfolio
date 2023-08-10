@@ -1,0 +1,290 @@
+@media (max-width: 400px){
+  #modal-about{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    height: 90%;
+    top: -990px;
+    right: -4%;
+    animation: slide-up 1.5s forwards;
+  }
+  .skill-info{
+    width: 100%;
+    height: 100%;
+  }
+  .skill-info h2{
+    margin: 10% auto;
+  }
+  .skill-info p{
+    display: inline-block;
+    margin: 5%;
+  }
+  .skill-info a{
+    text-decoration: underline;
+  }
+  .coding-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .coding-container p{
+    display: inline-block;
+  }
+  .misc-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .misc-container p{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+  #modal-about{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    height: 90%;
+    top: -1100px;
+    right: -4%;
+    animation: slide-up 1.5s forwards;
+  }
+  .skill-info{
+    width: 100%;
+    height: 100%;
+  }
+  .skill-info h2{
+    margin: 10% auto;
+  }
+  .skill-info p{
+    display: inline-block;
+    margin: 5%;
+  }
+  .skill-info a{
+    text-decoration: underline;
+  }
+  .coding-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .coding-container p{
+    display: inline-block;
+  }
+  .misc-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .misc-container p{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 650px){
+  #modal-about{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    height: 90%;
+    top: -1350px;
+    right: -4%;
+    animation: slide-up 1.5s forwards;
+  }
+  .skill-info{
+    width: 100%;
+    height: 100%;
+  }
+  .skill-info h2{
+    margin: 10% auto;
+  }
+  .skill-info p{
+    display: inline-block;
+    margin: 5%;
+  }
+  .skill-info a{
+    text-decoration: underline;
+  }
+  .coding-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .coding-container p{
+    display: inline-block;
+  }
+  .misc-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .misc-container p{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 750px){
+  #modal-about{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    height: 90%;
+    top: -1550px;
+    right: -4%;
+    animation: slide-up 1.5s forwards;
+  }
+  .skill-info{
+    width: 100%;
+    height: 100%;
+  }
+  .skill-info h2{
+    margin: 10% auto;
+  }
+  .skill-info p{
+    display: inline-block;
+    margin: 5%;
+  }
+  .skill-info a{
+    text-decoration: underline;
+  }
+  .coding-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .coding-container p{
+    display: inline-block;
+  }
+  .misc-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .misc-container p{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+  #modal-about{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    height: 90%;
+    top: -1250px;
+    right: -4%;
+    animation: slide-up 1.5s forwards;
+  }
+  .skill-info{
+    width: 100%;
+    height: 100%;
+  }
+  .skill-info h2{
+    margin: 5% auto;
+  }
+  .skill-info p{
+    display: inline-block;
+    margin: 2.5%;
+  }
+  .skill-info a{
+    text-decoration: underline;
+  }
+  .coding-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .coding-container p{
+    display: inline-block;
+  }
+  .misc-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .misc-container p{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px){
+  #modal-about{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+    height: 90%;
+    top: -1450px;
+    right: -4%;
+    animation: slide-up 1.5s forwards;
+  }
+  .skill-info{
+    width: 100%;
+    height: 100%;
+  }
+  .skill-info h2{
+    margin: 5% auto;
+  }
+  .skill-info p{
+    display: inline-block;
+    margin: 2.5%;
+  }
+  .skill-info a{
+    text-decoration: underline;
+  }
+  .coding-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .coding-container p{
+    display: inline-block;
+  }
+  .misc-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .misc-container p{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1700px){
+  #modal-about{
+    width: 95%;
+    height: 90%;
+    top: -800px;
+    right: -3%;
+    animation: slide-up 1.5s forwards;
+  }
+  .skill-info{
+    width: 100%;
+    height: 100%;
+  }
+  .skill-info h2{
+    margin: 5% auto;
+  }
+  .skill-info p{
+    display: inline-block;
+    margin: 2.5%;
+  }
+  .skill-info a{
+    text-decoration: underline;
+  }
+  .coding-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .coding-container p{
+    display: inline-block;
+  }
+  .misc-container{
+    margin-right: 10%;
+    width: 90%;
+  }
+  .misc-container p{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 1850px){
+  #modal-about{
+    top: -720px;
+    right: -500px;
+  }
+}

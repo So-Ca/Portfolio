@@ -1,0 +1,449 @@
+@media (max-width: 400px){
+  body{
+    background-image: url(../../assets/img/wallpaper/bianco-verticale.jpg);
+    background-repeat: repeat;
+    overflow: visible;
+  }
+  header{
+    margin: 0;
+  }
+  main{
+    flex-direction: column;
+  }
+  h1{
+    margin: 1% auto;
+    font-size: 2.5em;
+  }
+  h3{
+    margin: 50% auto;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+  }
+  a{
+    text-decoration: underline;
+  }
+  p{
+    display: none;
+  }
+  footer{
+    padding: 20px;
+    display: inline-block;
+    margin: auto;
+    position: static;
+  }
+  .welcome{
+    margin: 5%;
+  } 
+  .social{
+    justify-content: space-around;
+  }
+  .social a{
+    margin: auto 50%;
+  }
+  .social img{
+    width: 30px;
+    margin: 1%;
+  }
+  .social img:hover{
+    animation: none;
+  }
+  .hexagon{
+    margin: 25% auto 1% auto;
+    width: 250px;
+    height: 125px;
+  }
+  .hexagon:before,
+  .hexagon:after{
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+  }
+  .hexagon:before{
+    top: -75px;
+  }
+  .hexagon:after{
+    bottom: -75px;
+  }
+  .contact{
+    margin: 25% auto;
+  }
+  .contact:before{
+    border-bottom: 75px solid rgb(139, 197, 0, 0.9);
+  }
+  .contact:after{
+    border-top: 75px solid rgb(139, 197, 0, 0.9);
+  }
+  .project{
+    margin: 25% auto;
+  }
+  .project:before{
+    border-bottom: 75px solid rgb(41, 101, 241, 0.9);
+  }
+  .project:after{
+    border-top: 75px solid rgb(41, 101, 241, 0.9);
+  }
+  .about{
+    margin: 25% auto;
+  }
+  .about:before{
+    border-bottom: 75px solid rgb(229, 162, 38, 0.9);
+  }
+  .about:after{
+    border-top: 75px solid rgb(229, 162, 38, 0.9);
+  }
+  .hex-head{
+    border-bottom: none;
+  }
+  #logo{
+    display: block;
+    margin: auto;
+  }
+  #copyright{
+    display: none;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 500px){
+  body{
+    background-image: url(../../assets/img/wallpaper/bianco-verticale.jpg);
+    background-repeat: repeat;
+    overflow: visible;
+  }
+  header{
+    margin: 0;
+  }
+  main{
+    flex-direction: column;
+  }
+  h1{
+    margin: 1% auto;
+    font-size: 2.5em;
+  }
+  h3{
+    margin: 50% auto;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+  }
+  a{
+    text-decoration: underline;
+  }
+  p{
+    display: none;
+  }
+  footer{
+    padding: 20px;
+    display: inline-block;
+    margin: auto;
+    position: static;
+  }
+  .welcome{
+    margin: 5%;
+  } 
+  .social{
+    justify-content: space-around;
+  }
+  .social a{
+    margin: auto 50%;
+  }
+  .social img{
+    width: 30px;
+    margin: 1%;
+  }
+  .social img:hover{
+    animation: none;
+  }
+  .hexagon{
+    margin: 25% auto 1% auto;
+    width: 250px;
+    height: 125px;
+  }
+  .hexagon:before,
+  .hexagon:after{
+    border-left: 125px solid transparent;
+    border-right: 125px solid transparent;
+  }
+  .hexagon:before{
+    top: -75px;
+  }
+  .hexagon:after{
+    bottom: -75px;
+  }
+  .contact{
+    margin: 25% auto;
+  }
+  .contact:before{
+    border-bottom: 75px solid rgb(139, 197, 0, 0.9);
+  }
+  .contact:after{
+    border-top: 75px solid rgb(139, 197, 0, 0.9);
+  }
+  .project{
+    margin: 25% auto;
+  }
+  .project:before{
+    border-bottom: 75px solid rgb(41, 101, 241, 0.9);
+  }
+  .project:after{
+    border-top: 75px solid rgb(41, 101, 241, 0.9);
+  }
+  .about{
+    margin: 25% auto;
+  }
+  .about:before{
+    border-bottom: 75px solid rgb(229, 162, 38, 0.9);
+  }
+  .about:after{
+    border-top: 75px solid rgb(229, 162, 38, 0.9);
+  }
+  .hex-head{
+    border-bottom: none;
+  }
+  #logo{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+  }
+  #copyright{
+    display: none;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 750px){
+  body{
+    background-image: url(../../assets/img/wallpaper/bianco-verticale.jpg);
+    background-repeat: repeat;
+    overflow: visible;
+  }
+  header{
+    margin: 0;
+  }
+  main{
+    flex-direction: column;
+  }
+  h1{
+    margin: 1% auto;
+    font-size: 3.5em;
+  }
+  h3{
+    margin: 50% auto;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+  }
+  a{
+    text-decoration: underline;
+  }
+  p{
+    display: none;
+  }
+  footer{
+    padding: 20px;
+    display: inline-block;
+    margin: auto;
+    position: static;
+  }
+  .welcome{
+    margin: 5%;
+  } 
+  .social{
+    justify-content: space-around;
+  }
+  .social a{
+    margin: auto 50%;
+  }
+  .social img{
+    width: 40px;
+    margin: 1%;
+  }
+  .hexagon{
+    margin: 25% auto 1% auto;
+  }
+  .contact{
+    margin: 25% auto;
+  }
+  .project{
+    margin: 25% auto;
+  }
+  .about{
+    margin: 25% auto;
+  }
+  .hex-head{
+    border-bottom: none;
+  }
+  #logo{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+  }
+  #copyright{
+    display: none;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+  body{
+    background-image: url(../../assets/img/wallpaper/bianco-verticale.jpg);
+    background-repeat: repeat;
+    overflow: visible;
+  }
+  header{
+    margin: 0;
+  }
+  main{
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  h1{
+    margin: 1% auto;
+    font-size: 4em;
+  }
+  h3{
+    margin: 50% auto;
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+  }
+  a{
+    text-decoration: underline;
+  }
+  p{
+    display: none;
+  }
+  footer{
+    padding: 20px;
+    margin: auto;
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+  .welcome{
+    margin: 5%;
+  } 
+  .social{
+    justify-content: space-around;
+  }
+  .social a{
+    margin: auto 50%;
+  }
+  .social img{
+    margin: 1%;
+  }
+  .hexagon{
+    margin: 1% auto;
+  }
+  .contact{
+    margin: 15% auto;
+  }
+  .project{
+    margin: 15% auto;
+  }
+  .about{
+    margin: 15% auto;
+  }
+  .hex-head{
+    border-bottom: none;
+  }
+  #copyright{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1299px){
+  body{
+    background-image: url(../../assets/img/wallpaper/bianco-verticale.jpg);
+    background-repeat: repeat;
+    overflow: visible;
+  }
+  header{
+    margin: 0;
+  }
+  main{
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  h1{
+    margin: 1% auto;
+    font-size: 4em;
+  }
+  h3{
+    margin-top: 10%;
+    font-size: 2em;
+    text-align: center;
+  }
+  footer{
+    padding: 20px;
+    margin: auto;
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+  .welcome{
+    margin: 5%;
+  } 
+  .social{
+    justify-content: space-around;
+  }
+  .social a{
+    margin: auto 50%;
+  }
+  .social img{
+    margin: 1%;
+  }
+  .hexagon{
+    margin: 1% auto;
+  }
+  .contact{
+    margin: 15% auto;
+  }
+  .project{
+    margin: 15% auto;
+  }
+  .about{
+    margin: 15% auto;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1700px){
+  body{
+    overflow: visible;
+  }
+  header{
+    margin: 0;
+  }
+  main{
+    margin: 0 auto;
+  }
+  h1{
+    margin: 1% auto;
+  }
+  h3{
+    margin-top: 10%;
+  }
+  footer{
+    position: static;
+  }
+  .welcome{
+    margin: 5%;
+  }
+  .social a{
+    margin: auto 50%;
+  }
+  .social img{
+    margin: 1%;
+  }
+  .hexagon{
+    margin: 1% auto;
+  }
+  .contact{
+    margin: 15% auto;
+  }
+  .project{
+    margin: 15% auto;
+  }
+  .about{
+    margin: 15% auto;
+  }
+}

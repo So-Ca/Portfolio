@@ -30,7 +30,7 @@
   background: rgb(225, 225, 225, 0.95);
   position: relative;
   transform: translateX(-100%); /* Sposta il modale fuori dalla finestra */
-  animation: slide-in 1.5s forwards; /* Animazione per lo spostamento */
+  animation: slide-sx 1.5s forwards; /* Animazione per lo spostamento */
 }
 
 #modal-project{
@@ -43,8 +43,8 @@
   left: 20px;
   background: transparent;
   position: relative;
-  transform: translateX(-100%);
-  animation: slide-in 1.5s forwards;
+  transform: translateY(-100%);
+  animation: slide-up 1.5s forwards;
 }
 #modal-project.hidden {
   display: none;
@@ -54,7 +54,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width:70%;
+  width: 70%;
   height: 700px;
   top: -720px;
   right: -550px;
@@ -64,7 +64,7 @@
   background: rgb(225, 225, 225, 0.95);
   position: relative;
   transform: translateX(-100%);
-  animation: slide-in 1.5s forwards;
+  animation: slide-dx 1.5s forwards;
 }
 #modal-about.hidden{
   display: none;
@@ -142,7 +142,7 @@
   color: #ffffff;
 }
 
-@keyframes slide-in{
+@keyframes slide-sx{
   from{
     transform: translateX(-100%); /* Partenza fuori dalla finestra */
   } to {
@@ -150,10 +150,26 @@
   }
 }
 
+@keyframes slide-dx{
+  from{
+    transform: translateX(100%);
+  } to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-up{
+  from{
+    transform: translateY(-100%);
+  } to {
+    transform: translateY(0);
+  }
+}
+
 @keyframes slide-out{
   from{
-    transform: translateX(0); /* Partenza al centro della finestra */
+    transform: translateY(0);
   } to {
-    transform: translateX(-105%); /* Arrivo fuori dalla finestra */
+    transform: translateY(120%);
   }
 }

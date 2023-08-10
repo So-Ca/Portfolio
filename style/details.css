@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body{
-
-}
-
 nav{
   margin: 0;
   overflow: auto;
@@ -141,9 +137,9 @@ footer{
 }
 
 #logo{
-  margin: 0% 1%;
-  width: 20px;
-  height: 20px;
+  margin: 0;
+  width: 50px;
+  height: 30px;
 }
 
 #copyright{
